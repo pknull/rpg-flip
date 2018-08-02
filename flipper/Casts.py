@@ -8,3 +8,7 @@ class EightBall:
              'It is decidedly so', 'Better not tell you now', 'Very doubtful', 'Yes - definitely',
              'It is certain', 'Cannot predict now', 'Most likely.', 'Ask again later', 'My reply is no',
              'Outlook good', 'Don\'t count on it', 'Yes, in due time', 'My sources say no']
+
+class Killer:
+    SIDES = ['Trapper', 'Wraith', 'Hillbilly', 'Nurse', 'Huntress', 'Shape', 'Hag', 'Doctor', 'Pig', 'Clown',
+             'Freddy', 'Leatherface']
