@@ -12,3 +12,11 @@ class EightBall:
 class Killer:
     SIDES = ['Trapper', 'Wraith', 'Hillbilly', 'Nurse', 'Huntress', 'Shape', 'Hag', 'Doctor', 'Pig', 'Clown',
              'Freddy', 'Leatherface']
+
+class Defenders:
+    SIDES = ["Caviera", "Ela", "Vigil", "Echo", "Valkyrie", "Maestro", "Tachanka", "Alibi", "Lesion", "Jäger",
+             "Frost", "Mira", "Smoke", "Bandit", "Mute", "Rook", "Kapkan", "Recruit", "Doc", "Pulse", "Castle"]
+
+class Attackers:
+    SIDES = ["Sledge", "Thatcher", "Ash", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck"
+             "Blackbeard", "Capitão", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka", "Recruit"]
