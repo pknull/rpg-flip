@@ -18,5 +18,5 @@ class Defender:
              "Frost", "Mira", "Smoke", "Bandit", "Mute", "Rook", "Kapkan", "Recruit", "Doc", "Pulse", "Castle"]
 
 class Attacker:
-    SIDES = ["Sledge", "Thatcher", "Ash", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck"
+    SIDES = ["Sledge", "Thatcher", "Ash", "Thermite", "Twitch", "Montagne", "Glaz", "Fuze", "Blitz", "IQ", "Buck",
              "Blackbeard", "Capitão", "Hibana", "Jackal", "Ying", "Zofia", "Dokkaebi", "Lion", "Finka", "Recruit"]
