@@ -4,6 +4,8 @@ Simple utilities for randomly selecting from a predefined list of sides. The
 package exposes a `Tosser` class that can operate on any object which defines a
 `SIDES` attribute. A couple of example casts are provided in `flipper.Casts`.
 
+> This project is partially managed by [Asha](https://github.com/pknull/asha), a Claude Code framework.
+
 ## Usage
 
 ```python
