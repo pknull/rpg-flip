@@ -32,5 +32,4 @@ class EightBall:
         "Outlook good",
         "Don't count on it",
         "Yes, in due time",
-        "My sources say no",
     ]

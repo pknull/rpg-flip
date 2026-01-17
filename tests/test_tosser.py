@@ -25,3 +25,30 @@ def test_unique_toss_more_than_sides_returns_all_sides():
     t = Tosser(Coin)
     result = t.toss(ntoss=5, unique=True)
     assert set(result) == set(Coin.SIDES)
+
+
+def test_missing_sides_raises_value_error():
+    class NoSides:
+        pass
+
+    with pytest.raises(ValueError, match="must have a SIDES attribute"):
+        Tosser(NoSides)
+
+
+def test_empty_sides_raises_value_error():
+    class EmptySides:
+        SIDES = []
+
+    with pytest.raises(ValueError, match="cannot be empty"):
+        Tosser(EmptySides)
+
+
+def test_ntoss_zero_returns_empty_list():
+    t = Tosser(Coin)
+    assert t.toss(ntoss=0) == []
+
+
+def test_negative_ntoss_raises_value_error():
+    t = Tosser(Coin)
+    with pytest.raises(ValueError, match="ntoss must be non-negative"):
+        t.toss(ntoss=-1)
